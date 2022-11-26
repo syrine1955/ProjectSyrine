@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProjectSyrine</string>
+    <string name="add_new_client">Add New Client</string>
+    <string name="add_new_contract" />
+</resources>

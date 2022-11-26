@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".contractCrud.AddContract">
+
+  <EditText
+      android:id="@+id/idEdtReference"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:hint="Enter course Name" />
+
+  <EditText
+      android:id="@+id/idEdtDatedebut"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:hint="Enter Client Adresse" />
+
+  <EditText
+      android:id="@+id/idEdtDatefin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:hint="Enter Client Tel" />
+
+  <EditText
+      android:id="@+id/idEdtRedevence"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:hint="Enter Fax" />
+
+  <EditText
+      android:id="@+id/idEdtIdClient"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:hint="Enter Tel Contact" />
+
+  <Button
+      android:id="@+id/idAddButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:text="Add Contract"
+      android:textAllCaps="false" />
+    </LinearLayout>
